@@ -1,0 +1,54 @@
+@font-face {
+	font-family: arimo;
+	src: url("arimo.woff2");
+}
+body {
+	background-color: #121212
+}
+.mainDiv {
+	background-color: #242424;
+	box-sizing: border-box;
+	width: 87%;
+	overflow: auto;
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	padding-right: 10px;
+}
+.sideBar {
+	position: absolute;
+  	top: 0px;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-right: 90%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+	padding-left: 10px;
+}
+.whiteText {
+	color: #ffffff;
+	font-family: arimo;
+	font-size: 1.2em;
+}
+.whiteTextHover {
+	color: #ffffff;
+	font-family: arimo;
+	font-size: 1.2em;
+	transition: 0.05s;
+}
+.whiteTextHover:hover {
+	color: #121212;
+	background-color: #ffffff;
+	font-size: 1.5em;
+	transition: 0.1s;
+}
+.bigWhiteText {
+	color: #ffffff;
+	font-family: arimo;
+	font-size: 3em;
+	font-weight: bold;
+}
